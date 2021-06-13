@@ -1,0 +1,2 @@
+<button onclick=" MyUtils.loadingShow(); setTimeout(async function () {await MyUtils.tableToExcel('#all_items_tbl', $('h1').html().trim()+'.xlsx'); MyUtils.loadingHide();}, 500); "
+type="button" class="btn btn-success"><i class="fas fa-file-excel"></i> &nbsp;Export Excel</button>

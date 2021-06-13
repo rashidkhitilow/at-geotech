@@ -1,0 +1,1 @@
+<button id="load_more_btn" type="button" class="btn btn-sm btn-primary pl-5 pr-5"><i class="fa fa-arrow-circle-down"></i> <span>Load more...</span></button>
