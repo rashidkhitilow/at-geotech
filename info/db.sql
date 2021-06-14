@@ -226,8 +226,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 DELETE FROM `users`;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 INSERT INTO `users` (`id`, `name`, `email`, `phone_number`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-	(1, 'Rashid Khitilov', 'rashid.khitilov@gmail.com', '+994506601419', '2021-06-11 07:39:40', '$2y$10$XBeoEzvntfw605vczhRJues5BDU3DYjpZaD8L3XcEctCTtx1QLK1m', NULL, '2021-06-11 07:39:44', NULL),
-	(7, 'Test User', 'test@test.com', '039483534', NULL, '$2y$10$XBeoEzvntfw605vczhRJues5BDU3DYjpZaD8L3XcEctCTtx1QLK1m', NULL, '2021-06-11 03:56:23', '2021-06-11 03:56:23'),
+	(1, 'Rashid Khitilov', 'rashid.khitilov@gmail.com', '+994506601419', '2021-06-11 07:39:40', '$2y$10$F/O2kAGXasqwWwvZK8Njnu0jIoQm4lvVaoRuU5L/cpc6gn8tyVeae', NULL, '2021-06-11 07:39:44', NULL),
+	(7, 'Test User', 'test@test.com', '039483534', NULL, '$2y$10$F/O2kAGXasqwWwvZK8Njnu0jIoQm4lvVaoRuU5L/cpc6gn8tyVeae', NULL, '2021-06-11 03:56:23', '2021-06-11 03:56:23'),
 	(8, 'ali', 'ali@d.com', '3453535', NULL, '$2y$10$vpbSHPmzM6Y2riCA5KxicOsEFnc5kj6MEm/n45aqMCKYzFhHERAYG', NULL, '2021-06-11 04:24:20', '2021-06-11 04:24:20');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
